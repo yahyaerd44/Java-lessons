@@ -20,6 +20,34 @@ public class WrapperClass {
         short minDegeri= Short.MIN_VALUE;
         System.out.println("minDegeri = " + minDegeri); //minDegeri = -32768
 
+        //Ornek 2 : int data type nin minimum degeri ile byte data type inin maximum degerleri toplamini bulunuz.
+        int intmin = Integer.MIN_VALUE;
+        byte bytemax = Byte.MAX_VALUE;
+        System.out.println(intmin+bytemax);//-2147483521
+
+        //Ornek 3: Primitive int i Wrapper Integer a ceviriniz.(AutoBoxing)
+        //Wrapper class ın icine primitime koyuyorsan AutoBoxing olur.
+
+        int num = 19;
+
+        Integer wrapperNum = num;
+
+        //Ornek 4:Wrapper Byte i primitive byte a ceviriniz(unboxing)
+        //primitive bir kutuya wrapper esayn edersen bu da unboxing olur
+
+        Byte k = 19;
+        byte primitiveK = k;
+
+        //Ornek 5:Primitive char i Wrapper Character e ceviriniz.(AutoBoxing)
+
+        char c = 'A';
+        Character wrapperC = c;
+
+        //Ornek 6: Wrapper Boolean i primitive boolean a ceviriniz.(unboxing)
+
+        Boolean yasliMiW= true;
+        boolean b=yasliMiW;
+
 
     }
 
