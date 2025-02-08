@@ -26,12 +26,22 @@ public class Operators {
         3) Comparison(Karsilastirma) Operators
             <(kucuk),>(buyuk), <=(kucukesittir),>=(buyukesittir),==(esittir), != (esit degil)
 
-            Note :Karsılastirma operatorlerini kullandiginizda KESİNLİKLE boolean(true veya false) alirsiniz.
+            Note : Karsılastirma operatorlerini kullandiginizda KESİNLİKLE boolean(true veya false) alirsiniz.
+            Note : Biz AND islemi icin && kullaniriz & kullanim da gecerlidir
+            Farklari nedir ?
+            "&&" kullanim ilk ifade "false"oldugunda digerlerini kotrol etmez,dolayisiyla hizli calisir.
+            cunku AND isleminde ilk ifade false ise digerlerinin ne oldugunun bir onemi yoktur sonuc false olur
+            "&" kullanim ilk ifade ne olursa olsun digerlerini kotrol eder dolayisiyla yavas calisir.
+            Biz bu yuzden hep "&&" kullaniriz.
+              */
+        boolean  first =3<5;
+        boolean  second=2+3!=5;
+       boolean third =  2+3*5>19;
+        System.out.println(first + "-"+second+"-"+third);//true-false
+        System.out.println(first && second);//false
+        System.out.println(first|| second ||third);//true
 
 
-
-
-         */
 
     }
 }
