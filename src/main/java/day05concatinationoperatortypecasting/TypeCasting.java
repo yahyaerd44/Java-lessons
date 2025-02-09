@@ -45,7 +45,7 @@ public class TypeCasting {
         //Donusum  yaptiginiz sayi (260), donuseceginiz data type ini sinitlari disinda ise
         // java kullandiginiz sayi ile "mod" islemi yapar ve mod isleminin sonucu sizin yeni degerleriniz olur
 
-
+        //7.derste kaldım
 
 
 

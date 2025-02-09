@@ -1,6 +1,6 @@
 package day05concatinationoperatortypecasting;
 
-public class Concatination {
+public class Concatenation {
     //Birlestirmek demek
 
     public static void main(String[] args) {
