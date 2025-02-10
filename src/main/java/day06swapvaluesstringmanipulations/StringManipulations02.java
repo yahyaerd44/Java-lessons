@@ -10,7 +10,7 @@ public class StringManipulations02 {
         System.out.println(isEnd);//true
 
         //Ornek 2:"s" String indeki "money" kelimesini "dollar" kelimesine ceviriniz
-        //replace : yer degistir demek
+        //replace : istedigimiz spesifik karakteri yer degistirir.
         String s1 = s.replace("money", "dollar");
         System.out.println(s1);//Learn Java earn dollar
 
@@ -30,7 +30,7 @@ public class StringManipulations02 {
         System.out.println(s4);//Learxxx Java earxxx moxxxey
 
         //Ornek 6:"s" String indeki tum "e" harflerini siliniz
-        String s5 = s.replace("e", "");
+        String s5 = s.replace("e", "");//silme de yapar
         System.out.println(s5);//Larn Java arn mony
 
         String t = "Ali 13 yasindadir!...";
@@ -56,8 +56,14 @@ public class StringManipulations02 {
           */
         //Ornek 7:"t" String indeki tum rakamlari (0,1,2,3,4,5,6,7,8,9) "*" a ceviriniz.
         //regexleri string formatında gonder
-        String t1= t.replaceAll("[0-9]","*");
+        String t1 = t.replaceAll("[0-9]","*");
         System.out.println(t1);//Ali ** yasindadir!...
        // replacement : degistirmek istedigin sey demek
+
+     String t2 = t.replaceAll("\\p{Punct}","!");
+        System.out.println(t2);
+
+
+
     }
 }

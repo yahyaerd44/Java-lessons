@@ -43,7 +43,7 @@ public class StringManipulations01 {
         System.out.println(sLenght);//12
 
         //Ornek 6: "s" Stringindeki ilk dort characteri aliniz.
-        //substring : alt string demek
+        //substring : alt string demek.Bir String in belirli bir kısmını alır.
         //substring(0,4)==>  ilk index dahil ,ikinci index dahil DEGİL(baslangıc indexi dahil, bitis indexi haric )
         String java = s.substring(0, 4);
         System.out.println(java);//Java
@@ -64,8 +64,8 @@ public class StringManipulations01 {
 
         //Ornek 9 :"s" Stringindeki "money" kelimesinin var olup olmadıgını kontrol ediniz
         //isEXist: bulunuyor mu demek
-        //contains : icermek demek.istedigimiz karakter var mı yok mu diye kontrol eder
-        boolean isExist = s.contains("money");
+        //contains : icermek demek.istedigimiz karakter String de  var mı yok mu diye kontrol eder
+        boolean isExist = s.contains("money");//key sensitive dir.Yani java da buyuk-kucuk harf duyarlıdır.
         System.out.println(isExist);//false
 
         //Ornek 10:"s" Stringinin belli bir harfle baslayip baslamadigini kontrol ediniz.
