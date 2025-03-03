@@ -36,11 +36,5 @@ public class StringManipulations03 {
         char last = name.trim().toUpperCase().split(" ")[1].charAt(0);
         System.out.println(last);//C
         System.out.println(""+first+last);//AC
-
-
-
-
-
-
     }
 }
