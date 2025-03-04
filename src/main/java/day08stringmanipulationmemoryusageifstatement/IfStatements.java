@@ -9,23 +9,24 @@ public class IfStatements {
         //if you study hard,you will learn Java  (eger sıkı calısırsaniz,Java'yı öğreneceksiniz)==>english
 
         /*
-        if (if you study hard){
+        if (if you study hard){     //sart buraya yazılır
             you will learn Java ==> java
         }
         */
 
         //Ornek 1: Sayi pozitif ise ekrana pozitif yazdirin
 
-        int num = -13;
+        int num = 13;
         if (num > 0) {
             System.out.println(num + "==> pozitiftir");//13==> pozitiftir
 
             // Ornek 2: Sayi -1 ile 10 arasinda ise ekrana "Rakam" yazdirin
-            // -1<n<10(yanlıs olan) ==> n>-1 && n<10 (dogru olan)
+            // -1<n<10(normal matematikte mantık bu ama java da yanlıs olan) ==> n>-1 && n<10 (java da dogru olan)
         }
         int n = 5;
         if (n>-1 && n<10) {
             System.out.println("Rakam");
+
 
         }
     }
