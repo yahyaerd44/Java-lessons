@@ -31,5 +31,25 @@ public class IfStatements04 {
         }else {
             System.out.println("Tanımlanmamis yas..");
         }
+        /*
+        Homework
+        1) Kullanicidan alinan password "pwd123!" oldugunuda verilen password un dogru olup olmadigini kotrol eden ve
+        kullaniciya uygun mesaj veren kodu yaziniz
+
+
+        2)Haftanin gun ismini verdiginizde kacinci gun oldugunu veren kodu yaziniz
+
+        3) Ay sayisini verdiginizde ay ismini veren kodu yaziniz
+        1==> January , 2==>February
+         */
+        Scanner inp =new Scanner(System.in);
+        System.out.println("Lutfen sifresinizi giriniz..");
+        String sifre = "wd123";
+        String sifegir =inp.next();
+        if (sifegir.equals(sifre)){
+            System.out.println("Sifre dogru");
+        }else {
+            System.out.println("sifre yanlıs..");
+        }
     }
 }
