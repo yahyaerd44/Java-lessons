@@ -27,6 +27,5 @@ public class IfStatements02 {
         } else {
             System.out.println("Hatali giris yaptiniz.Lutfen 1 ile 7 arasinda bir sayi giriniz..");
         }
-
     }
 }
