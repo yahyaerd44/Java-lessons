@@ -19,7 +19,9 @@ public class NestedIf01 {
 
         System.out.println("Lutfen yasinizi giriniz..");
         int age = input.nextInt();
-        if (gender.equalsIgnoreCase("Kadin")) {
+        if (age<0 || age>120){
+            System.out.println("Lutfen yasi 0 ile 120 arasinda giriniz");
+        }else if (gender.equalsIgnoreCase("Kadin")) {
 
             if (age > 60) {
                 System.out.println("Emekli olabilir");
